@@ -2,72 +2,24 @@
   margin:0 auto;
 }
 
-.bookmarkapp{
-    max-width: 1024px;
+#container
+{
+  width:600px;
+  height:1440px;
+  background-color: grey;
+  position: absolute;
 }
 
-.header{
-  margin: 10px;
-}
-
-.error-message{
-  display: none;
-}
-
-.sprite-DocumentsFolder
- {
-     background: url("images/folder.png") no-repeat;
-     display: inline-block;
-     width: 20px;
-     height: 20px;
-     background-size: contain;
- }
-
- .sprite-Documents
- {
-     background: url("images/bookmark-plus.png") no-repeat top left;
-     display: inline-block;
-     width: 20px;
-     height: 20px;
-     background-size: contain;
- }
-
- .foldernode{
-     display: inline-block;
- }
-
- .folderimg{
-     display: inline-block;
-     width:20px;
-     height:20px;
-     background: url("images/folder.png") no-repeat;
-     background-size: contain;
- }
-
- .bookmarkimg
- {
-     display: inline-block;
-     width:20px;
-     height:20px;
-     background: url("images/bookmark-plus.png") no-repeat;
-     background-size: contain;
- }
-
- .foldertext{
-     display:inline-block;
-     vertical-align: text-bottom;
- }
-
- .ui-igtree-expander
- {
-    font-size:20px !important;
- }
-
- .bookmarklink{
-   cursor:pointer;
+.meeting
+{
+   position: absolute;
    display: inline-block;
- }
+   text-align: center;
+}
 
- #bookmark-view{
-   margin:20px;
- }
+.meeting span
+{
+   display: inline-block;
+   color:white;
+   vertical-align: middle;
+}
